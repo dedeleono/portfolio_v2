@@ -83,6 +83,7 @@ export interface Testimonial {
   title: string;
   company: string;
   feedback: string;
+  twitter: string;
 }
 
 export interface Certification {
