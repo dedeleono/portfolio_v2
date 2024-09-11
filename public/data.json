@@ -1,0 +1,148 @@
+{
+  "visual": {
+    "navbar": {
+      "links": [
+        
+        {
+          "label": "Projects",
+          "path": "#projects"
+        },
+        
+        {
+          "label": "Testimonials",
+          "path": "#testimonials"
+        }
+      ]
+    },
+    "home": {
+      "sections": {
+        "banner": true,
+        "experience": true,
+        "project": true,
+        "education": true,
+        "testimonial": true
+      }
+    }
+  },
+  "personalInfo": {
+    "name": "Diego de León",
+    "title": "Full Stack Developer",
+    "location": "Guatemala City, Guatemala",
+    "bio": "I am a passionate full-stack developer with a strong background in building modern, scalable web applications. I believe team-work and great communication are key for success."
+  },
+  "contactInfo": {
+    "email": "dolivabs@gmail.com",
+    "phone": "",
+    "linkedin": "https://www.linkedin.com/in/diego-de-le%C3%B3n-oliva/",
+    "github": "https://github.com/dedeleono",
+    "website": ""
+  },
+  "skills": {
+    "languages": ["JavaScript", "Typescript", "Python"],
+    "frameworks": ["React", "Node.js", "Express", "Next.js", "TailwindCSS", "Prisma", "TRPC"],
+    "databases": ["MySQL", "MongoDB", "PostgreSQL", "Supabase"],
+    "blockchain": ["Ethereum", "Solana", "EVM", "SVM"],
+    "tools": ["Git", "AWS", "Google Cloud Platform"]
+  },
+  "projects": [
+    {
+      "id": "1",
+      "title": "Dev Will Do It",
+      "description": "A platform to deploy SPL tokens into Solana blockchain. Each token includes a functionality to trade it and a chat room for users to interact.",
+      "technologies": ["Typescript", "Next.js", "TailwindCSS", "MySQL", "Prisma", "TRPC", "Solana"],
+      "live_url": "https://dev-will-do-it.vercel.app",
+      "code_repo_url": "https://github.com/u3Devhouse/dev-will-do-it",
+      "cover": "/assets/project_1.png"
+    },
+    {
+      "id": "2",
+      "title": "Thru Ticket",
+      "description": "A ticketing platform for events built on top of Solana blockchain. It allows users to buy and sell tickets for events in a secure and decentralized way.",
+      "technologies": ["Typescript", "Next.js", "Solana", "Prisma", "MySQL"],
+      "live_url": "https://thru-ticket.com",
+      "code_repo_url": "https://github.com/Thru-App/thru-colliseum",
+      "cover": "/assets/project_2.webp"
+    },
+    {
+      "id": "3",
+      "title": "Colegio Saber Ver",
+      "description": "An LMS platform for a private online school in Guatemala.",
+      "technologies": ["Typescript", "Next.js", "TailwindCSS", "Prisma", "PostgreSQL"],
+      "live_url": "",
+      "code_repo_url": "https://github.com/dedeleono",
+      "cover": "/assets/project_3.png"
+    }
+  ],
+  "workExperience": [
+    {
+      "id": "1",
+      "company": "Tech Corp",
+      "companyWebsite": "https://example.com",
+      "role": "Senior Full Stack Developer",
+      "startDate": "Jan 2020",
+      "endDate": "Present",
+      "technologies": ["Socket.io", "Node.js", "Express", "React"],
+      "keyResponsibilities": [
+        "Led a team of developers to create scalable web applications.",
+        "Implemented RESTful and GraphQL APIs using Node.js and Express.",
+        "Developed front-end applications using React and Next.js.",
+        "Integrated third-party services and APIs to enhance application functionality.",
+        "Mentored junior developers and conducted code reviews."
+      ]
+    },
+    {
+      "id": "2",
+      "company": "Web Solutions",
+      "companyWebsite": "https://example.com",
+      "role": "Full Stack Developer",
+      "startDate": "Jun 2017",
+      "endDate": "Dec 2019",
+      "technologies": ["MongoDB", "Express", "React", "Node.js"],
+      "keyResponsibilities": [
+        "Designed and developed web applications using JavaScript and React.",
+        "Built and maintained server-side APIs with Node.js and Express.",
+        "Collaborated with cross-functional teams to deliver high-quality products.",
+        "Ensured applications are responsive and performant.",
+        "Participated in Agile ceremonies and contributed to project planning."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "id": "1",
+      "institution": "Coursera",
+      "degree": "Full Stack Web Development with React",
+      "description": "Completed a Coursera specialization that focused on building full-stack web applications using React, Node.js, Express, and MongoDB. Learned best practices for designing and implementing responsive, scalable, and secure web applications.",
+      "startDate": "Sep 2013",
+      "endDate": "May 2017"
+    },
+    {
+      "id": "2",
+      "institution": "University of California, Berkeley",
+      "degree": "Bachelor of Science in Computer Science",
+      "description": "Completed a comprehensive curriculum in computer science, including courses in data structures, algorithms, software engineering, and artificial intelligence. Worked on several projects, including a web application for managing student organizations and a mobile app for tracking fitness activities.",
+      "startDate": "Sep 2013",
+      "endDate": "May 2017"
+    }
+  ],
+  "testimonials": [
+    {
+      "id": "1",
+      "name": "Diego Motta",
+      "avatar": "/assets/motta.jpg",
+      "title": "CTO",
+      "company": "THRU Tech",
+      "feedback": "Diego is a fantastic developer who consistently delivers high-quality work. He is a great team player and always willing to help others",
+      "twitter": "https://x.com/DMotta_182"
+    },
+    {
+      "id": "2",
+      "name": "José Fernández",
+      "avatar": "/assets/semi.jpg",
+      "title": "CEO",
+      "company": "U3 Devhouse",
+      "feedback": "Diego is a highly skilled developer who brings a lot of value to our projects. His expertise in full stack development is top-notch",
+      "twitter": "https://x.com/semiinvader"
+    }
+  ]
+}
