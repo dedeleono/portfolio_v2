@@ -146,7 +146,7 @@ export default async function Home() {
                   alt="Project 1"
                   height={200}
                   width={300}
-                  className="rounded-tr-md rounded-bl-md object-cover absolute bottom-0 left-0 h-3/4 border-t border-r border-gray-600"
+                  className="md:rounded-tr-md md:rounded-bl-md object-cover md:absolute md:bottom-0 md:left-0 md:h-3/4 md:border-t md:border-r border border-gray-300 shadow-sm md:shadow-none rounded-md md:rounded-none mx-auto w-full"
                 />
               </div>
 
