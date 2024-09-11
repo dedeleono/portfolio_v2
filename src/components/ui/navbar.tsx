@@ -27,7 +27,7 @@ export default async function Navbar() {
         </nav>
         <Sheet>
           <SheetTrigger asChild>
-            <Button variant="outline" size="icon" className="lg:hidden">
+            <Button variant="outline" size="icon" className="lg:hidden ml-auto">
               <MenuIcon className="h-6 w-6" />
               <span className="sr-only">Toggle navigation menu</span>
             </Button>
